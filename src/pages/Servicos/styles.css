@@ -1,0 +1,1282 @@
+@media (max-width: 599px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 3rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.7rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 1.75rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 0.9rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    font: 700 1.35rem Roboto;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0;
+    padding: 1rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.25rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 5vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 85%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 25vh;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.9rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 3rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1.4rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 4vh;
+    font: 400 1.35rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 1.75vh;
+    margin-left: 0;
+    padding: 1.2rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.8rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2.25rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 5vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-right: 3vw;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 25vh;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.5rem Roboto;
+  }
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 1.75rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 0.95rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    font: 700 1.35rem Roboto;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0;
+    padding: 1rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.05rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 7vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 8vh;
+    padding-left: 3vw;
+    font: 400 1rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 20vh;
+    font: 400 1rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.65rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 85%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2vw;
+    margin-right: 2vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 1.95rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 1rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    font: 700 1.35rem Roboto;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0;
+    padding: 1rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.25rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 5vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.85rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.25vw;
+    margin-right: 2.25vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 2.2rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1.2rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 1.1rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0;
+    padding: 1.35rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.5rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2.3rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 8vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2099px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.85rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.25vw;
+    margin-right: 2.25vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 2.5rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1.35rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 1.3rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-left: 0;
+    padding: 1.5rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 1.85rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 2.35rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 9vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 1.25rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.7rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 2399px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 6rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.3rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.25vw;
+    margin-right: 2.25vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 5vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 3.65rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 1.8rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 1.75rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-top: 2.5vh;
+    margin-left: 0;
+    padding: 1.75rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 2rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 3rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 8vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5.5vh;
+    padding-left: 3vw;
+    font: 400 1.75rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 1.75rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}
+
+@media (min-width: 2400px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 7rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.5rem Roboto;
+  }
+
+  .servicos-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    align-items: center;
+  }
+
+  .servicos-container .therapies {
+    display: flex;
+    flex-direction: row;
+    max-width: 90%;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 2.25vw;
+    margin-right: 2.25vw;
+    width: 100%;
+  }
+
+  .servicos-container .therapies .therapy .therapy-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .therapies .therapy .icon {
+    color: #366672;
+    margin-top: 5vh;
+  }
+
+  .servicos-container .therapies .therapy h1 {
+    text-align: center;
+    color: #366672;
+    margin-top: 3vh;
+    font: 900 4rem Roboto;
+  }
+
+  .servicos-container .therapies .therapy p {
+    text-align: center;
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    font: 400 2.1rem Roboto;
+  }
+
+  .servicos-container hr {
+    width: 100%;
+    max-width: 75%;
+    margin-top: 4vh;
+  }
+
+  .servicos-container .problems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .servicos-container .problems .list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    margin-top: 3vh;
+  }
+
+  .servicos-container .problems .list .item {
+    color: rgb(80, 80, 80);
+    margin-bottom: 3vh;
+    font: 400 2.2rem Roboto;
+    text-align: center;
+  }
+
+  .servicos-container .problems .button {
+    background: #366672;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 2.5vh;
+    margin-left: 0;
+    padding: 1.75rem;
+    border: 0;
+    margin-bottom: 5.5vh;
+    cursor: pointer;
+  }
+
+  .servicos-container .problems .button .link {
+    font: 900 2.5rem Roboto;
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  .servicos-container .form-title {
+    margin: 0;
+    font: 700 3.5rem Roboto;
+    color: #366672;
+    text-align: center;
+    margin-top: 8vh;
+    max-width: 80%;
+  }
+
+  .servicos-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5vh;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .servicos-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 75%;
+  }
+
+  .servicos-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 6vh;
+    padding-left: 3vw;
+    font: 400 2rem Roboto;
+  }
+
+  .servicos-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 2rem Roboto;
+  }
+
+  .servicos-container .form-container .form .btn {
+    background: #366672;
+    font: 700 3rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+}

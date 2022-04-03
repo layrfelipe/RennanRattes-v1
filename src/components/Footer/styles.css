@@ -1,0 +1,391 @@
+@media (max-width: 599px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 3vh;
+    margin-left: 3vw;
+    font: 700 1.5rem Roboto;
+    margin-bottom: 0.5vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.5vw;
+    font: 700 0.9rem Roboto;
+    margin-right: 2vw;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 4vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 0.75rem;
+    font: 500 0.8rem Roboto;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 4vh;
+    margin-left: 3vw;
+    font: 700 1.95rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.85vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.5vw;
+    font: 700 1.25rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 5vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 0.95rem;
+    font: 500 1.1rem Roboto;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 1.35rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.5vw;
+    font: 700 0.9rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 8vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 0.75rem;
+    font: 500 0.85rem Roboto;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 1.65rem Roboto;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.5vw;
+    font: 700 0.95rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 5vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 1.15rem;
+    font: 500 0.85rem Roboto;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 1.8rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.5vw;
+    font: 700 1.15rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 6vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 0.9rem;
+    font: 500 0.95rem Roboto;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2099px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 1.85rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1.75vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.25vw;
+    font: 700 1rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 6vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 1.2rem;
+    font: 500 1rem Roboto;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 2399px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 2.5rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.2vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.25vw;
+    font: 700 1.7rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 6vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 1.2rem;
+    font: 500 1.35rem Roboto;
+  }
+}
+
+@media (min-width: 2400px) {
+  .footer-container {
+    background: #366672;
+    margin-top: 4vh;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-container h2 {
+    margin-top: 5vh;
+    margin-left: 3vw;
+    font: 700 3.25rem Roboto;
+    margin-bottom: 1vh;
+  }
+
+  .footer-container .whatsapp,
+  .mail,
+  .loc {
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.2vh;
+    margin-left: 3vw;
+  }
+
+  .footer-container .whatsapp p,
+  .mail p,
+  .loc p {
+    margin-left: 1.25vw;
+    font: 700 2rem Roboto;
+    color: #ffffff;
+    text-align: left;
+  }
+
+  .footer-container .loc p {
+    margin-bottom: 6vh;
+  }
+
+  .footer-container .below-footer {
+    display: flex;
+    flex-direction: column;
+    background: #e2e2e2;
+    color: #366672;
+    align-items: center;
+    padding: 1.5rem;
+    font: 500 1.65rem Roboto;
+  }
+}

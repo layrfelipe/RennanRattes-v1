@@ -1,0 +1,844 @@
+@media (max-width: 599px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 3rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.7rem Roboto;
+  }
+
+  .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+  }
+
+  .form-container .form {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+  }
+
+  .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    height: 5vh;
+    padding-left: 3vw;
+  }
+
+  .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 25vh;
+  }
+
+  .form-container .form .btn {
+    background: #366672;
+    font: 700 1.2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .info .icon {
+    margin-top: 5vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+  }
+
+  .map-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.9rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 7vh;
+    padding-left: 3vw;
+    font: 400 1.25rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;;
+    min-height: 18vh;
+    max-height: 25vh;
+    font: 400 1.25rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact .info .icon {
+    margin-top: 5vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    font: 700 1.5rem Roboto;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    font: 500 1.25rem Roboto;
+  }
+
+  .map-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.5rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 8vh;
+    padding-left: 3vw;
+    font: 400 1rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-height: 15vh;
+    font: 400 1rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.25rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 3vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 5vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+  }
+
+  .map-container {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.65rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 7vh;
+    padding-left: 3vw;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-height: 18vh;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 3vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 5vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+  }
+
+  .map-container {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.85rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 7vh;
+    padding-left: 3vw;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 18vh;
+    max-height: 18vh;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 4.5vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 6vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+    font: 700 1.35rem Roboto;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+    font: 700 1.15rem Roboto;
+  }
+
+  .map-container {
+    margin-top: 8vh;
+    margin-bottom: 5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2099px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.85rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 6vh;
+    padding-left: 3vw;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 12vh;
+    max-height: 12vh;
+    font: 400 1.15rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 1.5rem Roboto;
+    color: #ffffff;
+    height: 7vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 4.5vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 6vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+    font: 700 1.5rem Roboto;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+    font: 700 1.2rem Roboto;
+  }
+
+  .map-container {
+    margin-top: 10vh;
+    margin-bottom: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 2399px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 6rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.3rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 6vh;
+    padding-left: 3vw;
+    font: 400 1.75rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 1.75rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 2rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 5.5vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 6vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+    font: 700 2rem Roboto;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+    font: 700 1.65rem Roboto;
+  }
+
+  .map-container {
+    margin-top: 10vh;
+    margin-bottom: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media (min-width: 2400px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 6rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.3rem Roboto;
+  }
+
+  .contato-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 4vh;
+    align-items: center;
+  }
+
+  .contato-container .form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 4vh;
+    max-width: 70%;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .contato-container .form-container .form input {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    min-height: 6vh;
+    padding-left: 3vw;
+    font: 400 2rem Roboto;
+  }
+
+  .contato-container .form-container .form textarea {
+    border: 1px solid #366672;
+    border-radius: 10px;
+    margin-bottom: 2vh;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-top: 1vh;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 15vh;
+    max-height: 15vh;
+    font: 400 2rem Roboto;
+  }
+
+  .contato-container .form-container .form .btn {
+    background: #366672;
+    font: 700 3rem Roboto;
+    color: #ffffff;
+    height: 8vh;
+    cursor: pointer;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .contact .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 50%;
+    width: 100%;
+    margin-top: 5.5vh;
+  }
+
+  .contact .info .icon {
+    margin-top: 6vh;
+    color: #366672;
+  }
+
+  .contact .info h2 {
+    color: rgb(54, 54, 54);
+    margin: 0;
+    margin-top: 2vh;
+    text-align: center;
+    font: 700 3rem Roboto;
+  }
+
+  .contact .info h3 {
+    color: rgb(80, 80, 80);
+    margin-top: 1vh;
+    text-align: center;
+    max-width: 50%;
+    font: 700 2rem Roboto;
+  }
+
+  .map-container {
+    margin-top: 10vh;
+    margin-bottom: 7.5vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+}

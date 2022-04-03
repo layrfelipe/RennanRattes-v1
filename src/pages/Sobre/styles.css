@@ -1,0 +1,776 @@
+@media (max-width: 599px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 3rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.7rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    max-width: 90%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  .about-first-content .about {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-top: 2vh;
+  }
+
+  .about-first-content .about .comment-icon {
+    display: none;
+  }
+
+  .about-first-content .about p {
+    font: 400 1rem Roboto;
+    color: rgb(80, 80, 80);
+    text-align: left;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-left: 7.5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 6vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 1.75rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 3vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 0.95rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    margin-right: 10vw;
+    text-align: left;
+    margin-bottom: 1vh;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 899px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.9rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    max-width: 95%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 3vh;
+    margin-bottom: 2vh;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 75%;
+    width: 100%;
+  }
+
+  .about-first-content .about .comment-icon {
+    display: none;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.4rem Roboto;
+    margin-top: 2vh;
+    color: rgb(80, 80, 80);
+    text-align: left;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9vh;
+    margin-left: 7.5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 2.35rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 3vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1.35rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    margin-right: 6vw;
+    text-align: justify;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1199px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.5rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 70vh;
+    max-width: 40%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.05rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 1.75rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1499px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 4rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+  }
+
+  .below-header h1 {
+    font: 900 1.65rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 65vh;
+    max-width: 40%;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 5vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 6vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.15rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 2.1rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1.2rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 1500px) and (max-width: 1799px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.85rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    max-width: 40%;
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 10vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.2rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    color: rgb(80, 80, 80);
+    max-width: 80%;
+    width: 80%;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 2.2rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1.1rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 1800px) and (max-width: 2099px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 5rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 0.85rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-sm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    max-width: 40%;
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 12vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.3rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    margin-right: 1.5vw;
+    color: rgb(80, 80, 80);
+    max-width: 80%;
+    width: 80%;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 2.3rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1.2rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 2100px) and (max-width: 2399px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 6rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.3rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-l.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    max-width: 35%;
+    width: 100%;
+    border-radius: 35px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 12vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 1.9rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+    max-width: 80%;
+    width: 80%;
+    margin-left: 2vw;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 3rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 1.8rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
+
+@media (min-width: 2400px) {
+  .below-header {
+    background: #e2e2e2;
+    padding: 7rem;
+    color: #366672;
+    display: flex;
+    justify-content: center;
+    font: 900 1.5rem Roboto;
+  }
+
+  .about-first-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-first-content .img-container {
+    background: url("../../assets/rennan-2-l.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 60vh;
+    max-width: 35%;
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 7vh;
+    margin-bottom: 2vh;
+    margin-left: 10vw;
+    margin-right: 2vw;
+  }
+
+  .about-first-content .about {
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    width: 100%;
+    margin-right: 5vw;
+  }
+
+  .about-first-content .about .comment-icon {
+    align-self: flex-end;
+    margin-right: 12vw;
+    margin-bottom: 3vh;
+  }
+
+  .about-first-content .about p {
+    font: 400 2.4rem Roboto;
+    margin-top: 2vh;
+    text-align: justify;
+    color: rgb(80, 80, 80);
+    max-width: 80%;
+    width: 80%;
+    margin-left: 2vw;
+  }
+
+  .about-second-content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .about-second-content .about-me {
+    margin-bottom: 7vh;
+    color: rgb(80, 80, 80);
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    width: 100%;
+  }
+
+  .about-second-content .about-me .text-about-me {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    color: rgb(80, 80, 80);
+  }
+
+  .about-second-content .about-me .text-about-me h2 {
+    font: 900 4rem Roboto;
+    color: #366672;
+    margin: 0;
+    margin-left: 2vw;
+  }
+
+  .about-second-content .about-me .text-about-me p {
+    font: 400 2.4rem Roboto;
+    color: rgb(80, 80, 80);
+    margin: 0;
+    margin-left: 2vw;
+    margin-top: 1.5vh;
+    margin-right: 5vw;
+    text-align: start;
+  }
+
+  .about-second-content .about-me .text-about-me .formation-info {
+    margin-top: 3vh;
+  }
+}
